@@ -22,8 +22,8 @@ function App() {
     if (gender === 'male'){
       setPromilles(promillesMale)
         if(promillesMale < 0)
-          {setPromilles(0)
-          }
+        {setPromilles(0)
+        }
     }
     else{
       setPromilles(promillesFemale)
